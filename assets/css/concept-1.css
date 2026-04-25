@@ -1,4 +1,4 @@
-/* body.concept-1 {
+body.concept-1 {
   --bg: #dfe7df;
   --surface: rgba(246, 250, 246, 0.78);
   --surface-strong: #f8fcf7;
@@ -13,25 +13,7 @@
   --font-body: "Trebuchet MS", "Segoe UI", sans-serif;
   --hero-image-scale: 1;
   --hero-image-shift: 0px;
-} */
-
-body.concept-1 {
-  --bg: #efe4d3;
-  --surface: rgba(255, 248, 241, 0.74);
-  --surface-strong: #fffaf5;
-  --text: #241b15;
-  --text-soft: #6c594a;
-  --accent: #b77144;
-  --accent-strong: #7f4b2a;
-  --accent-contrast: #fff8f0;
-  --line: rgba(73, 47, 27, 0.12);
-  --shadow: 0 26px 70px rgba(73, 47, 27, 0.12);
-  --font-display: "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  --font-body: "Trebuchet MS", "Segoe UI", sans-serif;
-  --hero-image-scale: 1;
-  --hero-image-shift: 0px;
 }
-
 
 .concept-1 .hero::before,
 .concept-1 .hero::after {
