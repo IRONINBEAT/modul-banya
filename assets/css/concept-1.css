@@ -157,3 +157,7 @@ body.concept-1 {
     padding: 10px 12px;
   }
 }
+
+[data-floating-phone] {
+    box-shadow: none !important;
+}
