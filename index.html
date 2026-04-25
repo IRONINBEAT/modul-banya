@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Модульные бани</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/concept-1.css">
+</head>
+
+<body class="concept-1">
+  <div class="site-frame">
+    <header class="site-header">
+      <a class="brand" href="concept-1.html">
+        <div class="brand-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M4 12.5L12 5l8 7.5" />
+            <path d="M6.5 11.5V19h11v-7.5" />
+            <path d="M9.5 19v-4.5h5V19" />
+          </svg>
+        </div>
+        <div class="brand-copy">
+          <strong>PRO MODUL</strong>
+        </div>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="menu-toggle-text">Меню</span>
+      </button>
+      <div class="header-actions" id="mobile-menu" data-mobile-menu>
+        <nav class="site-nav">
+          <button class="nav-link is-active" type="button" data-nav-target="home">Главная</button>
+          <button class="nav-link" type="button" data-nav-target="catalog">Каталог</button>
+          <button class="nav-link" type="button" data-nav-target="about">О нас</button>
+          <button class="nav-link" type="button" data-nav-target="contacts">Контакты</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="page-section is-active" id="home" data-section>
+        <div class="hero reveal">
+          <div class="hero-grid">
+            <div>
+              <span class="eyebrow">Что это такое?</span>
+              <h1>Готовая баня без долгой стройки</h1>
+              <p>
+                Небольшой текст про модульные бани. Небольшой текст про модульные бани.
+                Небольшой текст про модульные бани. Небольшой текст про модульные бани.
+                Небольшой текст про модульные бани. Небольшой текст про модульные бани.
+              </p>
+              <div class="hero-actions">
+                <button class="button-primary" type="button" data-jump="catalog">Выбрать модель</button>
+                <button class="button-secondary" type="button" data-jump="contacts">Получить консультацию</button>
+              </div>
+              <div class="hero-stats stagger">
+                <article class="stat-card">
+                  <strong>35 дней</strong>
+                  <p>средний срок изготовления модели под заказ</p>
+                </article>
+                <article class="stat-card">
+                  <strong>4 сезона</strong>
+                  <p>комфортной эксплуатации при правильной комплектации</p>
+                </article>
+                <article class="stat-card">
+                  <strong>1 день</strong>
+                  <p>чтобы поставить модуль на участке после доставки</p>
+                </article>
+              </div>
+            </div>
+            <div class="hero-visual" data-hero-visual>
+              <img src="assets/img/image2.png" alt="Иллюстрация модульной бани">
+            </div>
+          </div>
+        </div>
+
+        <div class="section-head reveal">
+          <div>
+            <h2>Преимущества модульных бань</h2>
+          </div>
+        </div>
+
+        <div class="metrics-grid stagger">
+          <article class="metric-card">
+            <strong>Без стройки на месяцы</strong>
+            <p>Большая часть работ делается на производстве, поэтому участок не превращается в долгую стройплощадку.</p>
+          </article>
+          <article class="metric-card">
+            <strong>Удобные комплектации</strong>
+            <p>Печь, утепление, отделка и полки можно сразу показать как стандартную и расширенную версии.</p>
+          </article>
+          <article class="metric-card">
+            <strong>Прозрачный выбор модели</strong>
+            <p>Каталог в формате маркетплейса помогает быстро сравнить размеры, цену и сценарий использования.</p>
+          </article>
+          <article class="metric-card">
+            <strong>Приятный первый контакт</strong>
+            <p>На любой вкладке остаётся кнопка звонка, чтобы клиент не потерялся и не ушёл к конкурентам.</p>
+          </article>
+        </div>
+
+        <div class="section-head reveal">
+          <div>
+            <h2>Нас рекомендуют</h2>
+          </div>
+          <div class="carousel-actions">
+            <button class="carousel-button" type="button" data-review-shift="prev" aria-label="Назад">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M15 18l-6-6 6-6" />
+              </svg>
+            </button>
+            <button class="carousel-button" type="button" data-review-shift="next" aria-label="Вперёд">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-shell reveal">
+          <div class="review-track" data-review-track></div>
+        </div>
+
+        <div class="section-head reveal">
+          <div>
+            <h2>Из каких материалов делаем бани</h2>
+          </div>
+        </div>
+        <div class="materials-grid stagger" data-material-grid></div>
+      </section>
+
+      <section class="page-section" id="catalog" data-section>
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Каталог проектов</span>
+            <h2>Широкий выбор вариантов</h2>
+          </div>
+
+        </div>
+        <div class="catalog-filters reveal" data-filter-box></div>
+        <div class="project-grid" data-project-grid></div>
+      </section>
+
+      <section class="page-section" id="about" data-section>
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">О продавце</span>
+            <h2>Немного о нас</h2>
+          </div>
+
+        </div>
+
+        <div class="about-grid">
+          <div class="about-visual reveal">
+            <img src="assets/img/about.jpg" alt="Команда на производстве">
+          </div>
+          <div class="about-panel reveal">
+            <h3>Привет! Меня зовут Валера</h3>
+            <p>
+              Семейная мастерская модульных бань, которая делает компактные деревянные бани
+              для частных участков, баз отдыха и дачных посёлков. На реальном проекте здесь
+              можно разместить историю бренда, опыт работы, фото производства и реальные цифры.
+            </p>
+            <ul class="seller-points">
+              <li>Собственное производство и типовые модели с возможностью доработки</li>
+              <li>Понятный процесс: консультация, подбор, производство, доставка, установка</li>
+              <li>Акцент на качестве материалов, аккуратной сборке и понятной коммуникации</li>
+            </ul>
+            <div class="hero-actions">
+              <button class="button-primary" type="button" data-jump="contacts">Связаться с продавцом</button>
+              <button class="button-ghost" type="button" data-jump="catalog">К моделям</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section" id="contacts" data-section>
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">Контакты</span>
+            <h2>Как нас найти</h2>
+          </div>
+
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-panel-stack">
+            <article class="contact-card reveal">
+              <h3>Основной контакт</h3>
+              <div class="contact-list">
+                <strong><a href="tel:+79991234567">+7 (999) 123-45-67</a></strong>
+                <span>Пн–Вс: 09:00–20:00</span>
+                <span>sales@example-bath.ru</span>
+              </div>
+            </article>
+            <article class="contact-card reveal">
+              <h3>Соцсети и мессенджеры</h3>
+              <p>Вы можете нас найти во всех популярных социальных сетях.</p>
+              <div class="contact-socials" data-social-links></div>
+            </article>
+            <article class="contact-card reveal">
+              <h3>Адрес производства</h3>
+              <p>г. Тогучин, Новосибирская обл.</p>
+              <p>ул. Береговая, 27Б</p>
+            </article>
+          </div>
+          <div class="contact-map reveal">
+            <iframe data-map-frame title="Карта" src="about:blank">
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      Модульные бани Басалаев Валерий Петрович · <span data-current-year></span>
+    </footer>
+  </div>
+
+  <div class="floating-phone-wrap" data-phone-popover>
+    <button class="floating-phone" type="button" data-floating-phone aria-expanded="false"
+      aria-controls="phone-popover">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path
+          d="M6.5 3.5h3l1 4-2 2c1.2 2.4 3.1 4.3 5.5 5.5l2-2 4 1v3c0 .8-.6 1.5-1.4 1.5C10.3 18.5 5.5 13.7 5.5 7.4c0-.8.7-1.4 1-3.9Z" />
+      </svg>
+      <span>Позвонить продавцу</span>
+    </button>
+    <div class="phone-popover" id="phone-popover" data-phone-panel hidden>
+      <span class="phone-popover-label">Телефон для связи</span>
+      <strong data-phone-display>+7 (999) 123-45-67</strong>
+      <div class="phone-popover-actions">
+        <a class="button-primary" href="tel:+79991234567" data-phone-call>Позвонить</a>
+        <button class="button-secondary" type="button" data-copy-phone>Скопировать</button>
+      </div>
+      <span class="phone-popover-note" data-copy-status>Номер можно скопировать в один клик</span>
+    </div>
+  </div>
+
+  <div class="modal" data-modal>
+    <div class="modal-card" data-modal-content></div>
+  </div>
+
+  <script id="site-data" type="application/json">
+  {
+    "phoneHref": "+79991234567",
+    "phoneDisplay": "+7 (999) 123-45-67",
+    "visualPalette": ["#9db39f", "#496457", "#e3ece3", "#2f453b"],
+    "map": {
+      "lat": 55.234417,
+      "lon": 84.393222,
+      "delta": 0.03
+    },
+    "filters": ["Популярные", "С террасой", "Для 2–4 человек", "С панорамным окном", "Под сдачу", "Зимняя комплектация"],
+    "socials": [
+      { "label": "Telegram", "href": "#", "icon": "telegram" },
+      { "label": "VK", "href": "#", "icon": "vk" },
+      { "label": "WhatsApp", "href": "#", "icon": "whatsapp" }
+    ],
+    "materials": [
+      {
+        "title": "Сухой профилированный брус",
+        "description": "Основа стен для стабильной геометрии, аккуратной сборки и теплого контура.",
+        "image": "assets/img/material/brus.png"
+      },
+      {
+        "title": "Базальтовый утеплитель",
+        "description": "Помогает удерживать температуру и делает баню комфортной в межсезонье и зимой.",
+        "image": "assets/img/material/bazalt.png"
+      },
+      {
+        "title": "Липа и осина для парной",
+        "description": "Материалы для внутренней отделки с приятной фактурой и спокойным внешним видом.",
+        "image": "assets/img/material/lipaosina.png"
+      }
+    ]
+  }
+</script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
