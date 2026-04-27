@@ -29,6 +29,7 @@ if (siteDataNode) {
     telegram: '<img src="assets/img/telegram.png" alt="Telegram" width="22" height="22">',
     vk: '<img src="assets/img/vk.png"       alt="VK"       width="22" height="22">',
     whatsapp: '<img src="assets/img/whatsapp.png" alt="WhatsApp" width="22" height="22">',
+    max: '<img src="assets/img/max.png" alt="MAX" width="22" height="22">',
     phone: '<img src="assets/img/phone.png"    alt="Телефон"  width="22" height="22">',
   };
 
