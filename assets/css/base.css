@@ -933,9 +933,9 @@ img {
   max-height: min(92vh, 860px);
   overflow: auto;
   border-radius: 28px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: linear-gradient(180deg, rgba(255, 253, 250, 0.98), rgba(250, 246, 240, 0.95));
-  box-shadow: 0 30px 80px rgba(13, 8, 5, 0.32);
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
 }
 
 .modal-head {
@@ -947,7 +947,7 @@ img {
   justify-content: space-between;
   gap: 20px;
   padding: 24px 24px 14px;
-  background: linear-gradient(180deg, rgba(255, 252, 248, 0.96), rgba(255, 252, 248, 0.72));
+  background: linear-gradient(180deg, var(--surface-strong) 60%, rgba(255,255,255,0));
   backdrop-filter: blur(14px);
 }
 
@@ -985,7 +985,7 @@ img {
   min-height: 420px;
   border-radius: 24px;
   border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.74);
+  background: var(--surface);
 }
 
 .modal-video-wrap {

@@ -1,7 +1,7 @@
 body.concept-1 {
   --bg: #dfe7df;
   --surface: rgba(246, 250, 246, 0.78);
-  --surface-strong: #f8fcf7;
+  --surface-strong: #f4faf4;
   --text: #203028;
   --text-soft: #5d7065;
   --accent: #6f8e79;
@@ -160,4 +160,14 @@ body.concept-1 {
 
 [data-floating-phone] {
     box-shadow: none !important;
+}
+
+.project-card {
+  cursor: pointer;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 32px 64px rgba(42, 67, 54, 0.18);
 }

@@ -340,6 +340,15 @@ if (siteDataNode) {
     document.querySelectorAll("[data-open-project]").forEach((button) => {
       button.addEventListener("click", () => openModal(button.dataset.openProject));
     });
+
+    document.querySelectorAll("[data-project-card]").forEach((card) => {
+      card.addEventListener("click", (event) => {
+        // Не дублируем, если кликнули прямо по кнопке "Смотреть"
+        if (event.target.closest("[data-open-project]")) return;
+        const button = card.querySelector("[data-open-project]");
+        if (button) openModal(button.dataset.openProject);
+      });
+    });
   };
 
   const hydrateReveal = () => {
