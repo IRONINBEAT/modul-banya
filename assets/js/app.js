@@ -237,7 +237,7 @@ if (siteDataNode) {
             <span>${project.note}</span>
           </div>
           <div class="modal-specs">
-            <div class="modal-spec"><span>Размер</span><strong>${project.size}</strong></div>
+            <div class="modal-spec"><span>Размер (Д x Ш x В)</span><strong>${project.size}</strong></div>
             <div class="modal-spec"><span>Площадь</span><strong>${project.area}</strong></div>
             <div class="modal-spec"><span>Вместимость</span><strong>${project.capacity}</strong></div>
             <div class="modal-spec"><span>Срок изготовления</span><strong>${project.term}</strong></div>
